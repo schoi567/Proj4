@@ -1,0 +1,46 @@
+{
+  "result": [],
+  "answers": [],
+  "questions": [
+    {
+      "id": 1,
+      "Question": "1. What is 5 divided by 2?",
+      "a": "3",
+      "b": "1",
+      "c": "1.5",
+      "d": "2.5",
+      "answer": "d",
+      "answer1": "2.5"
+    },
+    {
+      "id": 2,
+      "Question": "2. What is 6 divided by 2?",
+      "a": "3",
+      "b": "1",
+      "c": "1.5",
+      "d": "2.5",
+      "answer": "a",
+      "answer1": "3"
+    },
+    {
+      "id": 3,
+      "Question": "3. What is 2 divided by 2?",
+      "a": "3",
+      "b": "1",
+      "c": "1.5",
+      "d": "2.5",
+      "answer": "b",
+      "answer1": "1"
+    },
+    {
+      "id": 4,
+      "Question": "4. What is 3 divided by 2?",
+      "a": "3",
+      "b": "1",
+      "c": "1.5",
+      "d": "2.5",
+      "answer": "c",
+      "answer1": "1.5"
+    }
+  ]
+}

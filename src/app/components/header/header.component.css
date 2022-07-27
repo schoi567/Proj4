@@ -1,0 +1,24 @@
+.header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #b2dd68;
+  resize: none;
+  z-index: 1;
+}
+
+#wrapper {
+  position: fixed;
+  margin-left:auto;
+  margin-right:auto;
+  resize: none;
+  z-index: 100;
+
+}
+
+span.keeptogether {
+  white-space: nowrap ;
+  overflow: hidden;
+  z-index: 1;
+}

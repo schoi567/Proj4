@@ -1,0 +1,19 @@
+
+#overflow {
+  overflow: hidden;
+}
+
+#text-container-router{
+  max-height: 700px;
+  min-height:30px;
+  left:100%;
+  right:100%;
+  margin-top: 10%;
+
+}
+
+span.keeptogether {
+  white-space: nowrap ;
+  overflow: hidden;
+  z-index: 1;
+}

@@ -1,0 +1,6 @@
+
+span.keeptogether {
+  white-space: nowrap ;
+  overflow: hidden;
+  z-index: 1;
+}

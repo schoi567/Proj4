@@ -1,0 +1,12 @@
+#wrapper {
+
+  float:left; /* add this */
+  border: 1px solid red;
+}
+#first {
+  width: 200px;
+  float:right; /* add this */
+
+
+  border: 1px solid red;
+}

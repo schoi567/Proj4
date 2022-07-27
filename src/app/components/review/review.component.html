@@ -1,0 +1,70 @@
+<br><br><br><br><br>
+<div *ngIf="isLoaded">
+
+
+  <br><br><br><br>
+
+  <div class="container">
+
+    <div *ngIf="Questions">
+      <p>{{Questions[0].Question}}</p>
+      <p>Correct Answer: {{Questions[0].answer}}</p>
+    </div>
+
+    <div *ngIf="Answers">
+      <p>Your Answer: {{Answers[0].selected1}}</p>
+    </div>
+
+    <br>
+
+    <div *ngIf="Questions">
+      <p>{{Questions[1].Question}}</p>
+      <p>Correct Answer: {{Questions[1].answer}}</p>
+    </div>
+
+    <div *ngIf="Answers">
+      <p>Your Answer: {{Answers[1].selected1}}</p>
+    </div>
+
+    <br>
+
+    <div *ngIf="Questions">
+      <p>{{Questions[2].Question}}</p>
+      <p>Correct Answer: {{Questions[1].answer}}</p>
+    </div>
+
+    <div *ngIf="Answers">
+      <p>Your Answer: {{Answers[2].selected1}}</p>
+    </div>
+
+    <br>
+
+    <div *ngIf="Questions">
+      <p>{{Questions[3].Question}}</p>
+      <p>Correct Answer: {{Questions[3].answer}}</p>
+    </div>
+
+    <div *ngIf="Answers">
+      <p>Your Answer: {{Answers[3].selected1}}</p>
+    </div>
+
+
+
+  </div>
+
+
+
+  <div class="col-12" style="justify-content: center;display: flex;">
+    <button type="button" class="btn btn-primary" (click)="BacktoMain()">Back to MainPage</button>
+  </div>
+
+
+
+
+<br><br><br>
+
+</div>
+
+
+
+

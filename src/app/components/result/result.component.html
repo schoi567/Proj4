@@ -1,0 +1,22 @@
+<br><br><br><br><br>
+<div *ngIf="isLoaded">
+
+<div *ngFor="let r of Results">
+  <p>Number of Questions that were answered</p>
+  <p>{{r.totalAnswered}}</p>
+  <p>Number of Questions that were Correct</p>
+  <p>{{r.rightAnswer}}</p>
+</div>
+
+
+
+
+
+  <div class="col-12" style="justify-content: center;display: flex;">
+    <button type="button" class="btn btn-primary" (click)="review()">See Review</button>
+  </div>
+
+
+
+
+</div>

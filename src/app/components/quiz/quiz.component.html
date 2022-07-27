@@ -1,0 +1,40 @@
+<div *ngIf="isLoaded">
+<div id="text-container-router">
+<h5 >Your math ability will be assessed on this online quiz, then you will be placed to the right class</h5>
+<form #questionTest="ngForm" novalidate>
+
+<div *ngFor="let q of Questions" id="overflow">
+
+<p>{{q.Question}}</p>
+<div class="form-check form-check-inline mr-1">
+  <input class="form-check-input" type="radio" name="{{q.id}}" value="a" [(ngModel)]="q.selected">
+  <label class="form-check-label">&emsp;{{q.a}}</label>
+</div>
+<br>
+<div class="form-check form-check-inline mr-1">
+  <input class="form-check-input" type="radio" name="{{q.id}}"  value="b" [(ngModel)]="q.selected">
+  <label class="form-check-label">&emsp;{{q.b}}</label>
+</div>
+<br>
+<div class="form-check form-check-inline mr-1">
+  <input class="form-check-input" type="radio" name="{{q.id}}"  value="c" [(ngModel)]="q.selected">
+  <label class="form-check-label">&emsp;{{q.c}}</label>
+</div>
+<br>
+
+<div class="form-check form-check-inline mr-1">
+  <input class="form-check-input" type="radio" name="{{q.id}}"  value="d" [(ngModel)]="q.selected">
+  <label class="form-check-label" >&emsp;{{q.d}}</label>
+</div>
+
+
+<br><br><br>
+</div>
+
+<div class="col-12" style="justify-content: center;display: flex;">
+<button type="button" class="btn btn-primary" (click)="submit()">Submit</button>
+</div>
+
+
+
+<br><br><br>
